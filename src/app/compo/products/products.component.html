@@ -1,0 +1,20 @@
+<app-nav></app-nav>
+<h1 class="text">E CART</h1>
+<div class="container">
+  <div class="row g-3">
+    @for (item of products; track $index) {
+      <div class="col" routerLink="{{item.id}}">
+        <div class="card" style="width: 18rem;height:500px;background-color:antiquewhite">
+          <img src="{{item.image}}" class="card-img-top" alt="..." height="300px">
+          <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.price}}</p>
+            <a href="#" class="btn btn-primary">View</a>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>
+<app-footer></app-footer>
+

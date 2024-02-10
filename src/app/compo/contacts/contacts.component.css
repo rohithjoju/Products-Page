@@ -1,0 +1,39 @@
+/* Custom CSS */
+
+/* Header styles */
+header {
+    background-color: #343a40;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  /* Main content styles */
+  main {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 600px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
+  

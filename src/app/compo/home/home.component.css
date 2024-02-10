@@ -1,0 +1,45 @@
+/* Custom CSS */
+
+/* Header styles */
+header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    color: #333;
+  }
+  
+  /* Carousel styles */
+  #carouselSection {
+    margin-top: 20px;
+  }
+  
+  .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Featured Products styles */
+  #featuredProducts {
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
